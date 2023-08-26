@@ -1,0 +1,167 @@
+
+.tete{
+    background-color: #fa9ccd;
+    display: flex;
+    padding: 8px 15px;
+}
+div.tit input{
+    padding: 10px 24px;
+    margin: 18px 240px;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.profil{
+    height: 50px;
+    width: 50px;
+    margin-left: 18em;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+div.kontene{
+    display: flex;
+}
+div.menu{
+    background-color: rgb(225, 223, 223);
+    margin: 12px 0;
+    margin-right:20px ;
+    height: 37em;
+    width: 12em;
+}
+div.menu ul{
+    padding: 3px 8px;
+}
+div.menu ul li{
+    list-style: none;
+    padding: 14px 0;
+}
+div.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+p.para{
+    color: rgb(84, 84, 84);
+    margin:0 8px;
+}
+div.pawol{
+    background-color: rgb(225, 223, 223);
+    width: 22em;
+    height: 80px;
+    margin: 12px 40px;
+}
+div.stati p{
+    text-align: center;
+    color: rgb(84, 84, 84);
+    margin: 30px 0;
+}
+div.stati img.Poste{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 20px 0;
+    background-color: #D838F2;
+    padding: 2px;
+}
+div.stati button{
+    background-color: #D838F2;
+    padding: 5px 40px;
+    float: right;
+    margin: 30px 0;
+    color: white;
+}
+div.pale{
+    background-color:rgb(225, 223, 223);
+    height: 180px;
+    width: 22em;
+}
+div.pale p{
+    margin:0 8px;
+}
+div.mani img{
+    border-radius: 50%;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+div.mani h4 , div.M h4{
+    padding: 0 5px;
+}
+div.foto{
+    background-color:rgb(225, 223, 223);;
+    height: 180px;
+    width: 22em;
+}
+div.foto .ron{
+    border-radius: 50%;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+div.foto .photo{
+    height: 100px;
+    width: 19em;
+    margin: 0 10px;
+}
+div.pub{
+    background-color:white;
+    width: 20em;
+    margin: 12px 0;
+}
+div.pub h2{
+    text-align: center;
+    color: rgb(13, 58, 13);
+}
+div.pub p{
+    text-align: center;
+}
+div.fini img{
+    height: 98px;
+    width: 100px;
+    margin: 5px 10px;
+    padding: 5px 8px;
+}
+div.fini h3{
+    color: #D838F2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding: 0 15px;
+}
+div.fin{
+    background-color: rgb(225, 223, 223);
+    width: 18em;
+    margin: 12px 0;
+    margin-left: 30px;
+}
+div.fwa img{
+    border-radius: 50%;
+    height: 35px;
+    vertical-align: middle;
+    margin: 0px 8px;
+}
+div.fwa p{
+    font-weight: bold;
+}
+span{
+    font-weight: 400;
+    margin: 0 3.2em;
+}
+div.komant .k{
+padding: 12px 10px;
+margin: 0px 8px;
+}
+div.komant .dako{
+    padding: 12px 10px;
+    background-color: #D838F2;
+    color: white;
+     
+}
+@media screen and (max-width:1320px){
+    header{
+        width: 190%;
+    }
+}
